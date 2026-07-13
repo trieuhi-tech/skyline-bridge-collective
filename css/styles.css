@@ -254,6 +254,24 @@ a { color: inherit; text-decoration: none; }
   gap: 20px;
 }
 
+.lang-switch {
+  background: none;
+  border: 1px solid var(--border);
+  padding: 6px 10px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  color: var(--silver-dim);
+  transition: border-color 0.25s ease;
+}
+.lang-switch:hover { border-color: var(--gold); }
+.lang-switch .lang-option { transition: color 0.2s ease; }
+.lang-switch .lang-option.active { color: var(--gold-bright); font-weight: 600; }
+.lang-divider { color: var(--silver-dim); }
+
 .nav-toggle {
   display: none;
   flex-direction: column;
@@ -288,6 +306,22 @@ a { color: inherit; text-decoration: none; }
   pointer-events: none;
   z-index: 0;
   transition: opacity 0.4s ease;
+}
+.hero-watermark {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.16;
+}
+.hero-watermark img {
+  width: min(1100px, 90vw);
+  max-width: none;
+  height: auto;
 }
 .hero-inner {
   max-width: 760px;
@@ -583,6 +617,15 @@ a { color: inherit; text-decoration: none; }
 }
 .social-link svg { flex-shrink: 0; color: var(--gold); transition: color 0.25s ease; }
 .social-link:hover svg { color: var(--gold-bright); }
+.social-link:hover { color: var(--gold-bright); }
+.brand-instagram {
+  margin-top: 20px;
+  color: var(--silver);
+  font-size: 0.9rem;
+  letter-spacing: 0.02em;
+  position: relative;
+  z-index: 1;
+}
 
 /* Footer */
 .site-footer {
@@ -673,7 +716,11 @@ a { color: inherit; text-decoration: none; }
     pointer-events: auto;
   }
   .nav-toggle { display: flex; }
-  .brand-name { display: none; }
+  .brand { gap: 8px; }
+  .brand-mark { width: 52px; height: 26px; }
+  .brand-name { font-size: 0.5rem; letter-spacing: 0.1em; line-height: 1.4; }
+  .brand-name-sub { gap: 5px; }
+  .brand-name-sub::before, .brand-name-sub::after { width: 6px; }
   .services-grid { grid-template-columns: 1fr; }
   .contact-grid { grid-template-columns: 1fr; }
   .section { padding: 84px 0; }
@@ -683,4 +730,6 @@ a { color: inherit; text-decoration: none; }
   .ghost-num { font-size: clamp(4.5rem, 22vw, 7rem); top: -0.2em; }
   .service-index { font-size: 4rem; right: 14px; }
   .brand-feature-mark { top: 16px; right: 20px; font-size: 1.8rem; }
+  .hero-watermark { opacity: 0.14; }
+  .hero-watermark img { width: min(640px, 130vw); }
 }
