@@ -307,25 +307,10 @@ a { color: inherit; text-decoration: none; }
   z-index: 0;
   transition: opacity 0.4s ease;
 }
-.hero-watermark {
-  position: absolute;
-  inset: 0;
-  overflow: hidden;
-  pointer-events: none;
-  z-index: 0;
-  opacity: 0.14;
-}
-.hero-watermark img {
-  position: absolute;
-  top: 50%;
-  right: -4%;
-  width: 820px;
-  max-width: none;
-  height: auto;
-  transform: translateY(-50%);
-}
 .hero-inner {
-  max-width: 760px;
+  display: flex;
+  align-items: center;
+  gap: 64px;
   padding-top: 60px;
   padding-bottom: 60px;
   opacity: 0;
@@ -336,6 +321,22 @@ a { color: inherit; text-decoration: none; }
 }
 @keyframes hero-in {
   to { opacity: 1; transform: none; }
+}
+.hero-text {
+  flex: 1 1 520px;
+  max-width: 600px;
+}
+.hero-visual {
+  flex: 1 1 380px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-visual img {
+  width: 100%;
+  max-width: 420px;
+  height: auto;
+  filter: drop-shadow(0 30px 60px rgba(0,0,0,0.55));
 }
 .eyebrow {
   color: var(--gold);
@@ -731,12 +732,7 @@ a { color: inherit; text-decoration: none; }
   .ghost-num { font-size: clamp(4.5rem, 22vw, 7rem); top: -0.2em; }
   .service-index { font-size: 4rem; right: 14px; }
   .brand-feature-mark { top: 16px; right: 20px; font-size: 1.8rem; }
-  .hero-watermark { opacity: 0.1; }
-  .hero-watermark img {
-    top: auto;
-    bottom: -4%;
-    right: 50%;
-    transform: translateX(50%);
-    width: min(560px, 140vw);
-  }
+  .hero-inner { flex-direction: column; gap: 40px; text-align: left; }
+  .hero-visual { order: -1; }
+  .hero-visual img { max-width: 260px; }
 }
