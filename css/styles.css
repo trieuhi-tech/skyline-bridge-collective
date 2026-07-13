@@ -124,33 +124,20 @@ a { color: inherit; text-decoration: none; }
 .skyline-bg::before {
   content: "";
   position: absolute;
-  left: 0; right: 0; bottom: 0;
-  height: 56vh;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 400' preserveAspectRatio='none'%3E%3Cg fill='%23000000' fill-opacity='0.4'%3E%3Crect x='20' y='300' width='50' height='100'/%3E%3Crect x='95' y='260' width='36' height='140'/%3E%3Crect x='150' y='290' width='46' height='110'/%3E%3Crect x='215' y='230' width='24' height='170'/%3E%3Crect x='260' y='275' width='60' height='125'/%3E%3Crect x='340' y='210' width='20' height='190'/%3E%3Crect x='380' y='255' width='50' height='145'/%3E%3Crect x='450' y='285' width='38' height='115'/%3E%3Crect x='510' y='195' width='18' height='205'/%3E%3Crect x='550' y='265' width='46' height='135'/%3E%3Crect x='615' y='300' width='34' height='100'/%3E%3Crect x='665' y='240' width='28' height='160'/%3E%3Crect x='710' y='280' width='55' height='120'/%3E%3Crect x='790' y='215' width='22' height='185'/%3E%3Crect x='830' y='260' width='50' height='140'/%3E%3Crect x='895' y='295' width='36' height='105'/%3E%3Crect x='950' y='225' width='20' height='175'/%3E%3Crect x='990' y='270' width='52' height='130'/%3E%3Crect x='1060' y='300' width='32' height='100'/%3E%3Crect x='1105' y='245' width='24' height='155'/%3E%3Crect x='1145' y='280' width='58' height='120'/%3E%3Crect x='1220' y='210' width='20' height='190'/%3E%3Crect x='1260' y='260' width='44' height='140'/%3E%3Crect x='1320' y='295' width='34' height='105'/%3E%3Crect x='1370' y='235' width='22' height='165'/%3E%3Crect x='1410' y='275' width='50' height='125'/%3E%3Crect x='1475' y='300' width='30' height='100'/%3E%3Crect x='1520' y='250' width='24' height='150'/%3E%3Crect x='1560' y='285' width='38' height='115'/%3E%3C/g%3E%3C/svg%3E");
+  inset: 0;
+  background-image: url("../assets/logo-icon.png");
   background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  opacity: 0.75;
+  background-position: center 30%;
+  background-size: min(1100px, 92vw) auto;
+  opacity: 0.1;
 }
 .skyline-bg::after {
   content: "";
   position: absolute;
-  left: 0; right: 0; bottom: 0;
-  height: 46vh;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 400' preserveAspectRatio='none'%3E%3Cg fill='%23000000' fill-opacity='0.62'%3E%3Crect x='0' y='260' width='60' height='140'/%3E%3Crect x='70' y='200' width='40' height='200'/%3E%3Crect x='120' y='240' width='55' height='160'/%3E%3Crect x='185' y='150' width='30' height='250'/%3E%3Cpolygon points='200,150 215,150 207,110'/%3E%3Crect x='230' y='220' width='70' height='180'/%3E%3Crect x='310' y='100' width='26' height='300'/%3E%3Crect x='345' y='190' width='60' height='210'/%3E%3Crect x='415' y='230' width='45' height='170'/%3E%3Crect x='470' y='60' width='22' height='340'/%3E%3Cpolygon points='470,60 492,60 481,20'/%3E%3Crect x='505' y='210' width='55' height='190'/%3E%3Crect x='575' y='260' width='40' height='140'/%3E%3Crect x='625' y='170' width='34' height='230'/%3E%3Crect x='670' y='230' width='65' height='170'/%3E%3Crect x='745' y='120' width='28' height='280'/%3E%3Crect x='785' y='195' width='58' height='205'/%3E%3Crect x='855' y='245' width='42' height='155'/%3E%3Crect x='910' y='80' width='24' height='320'/%3E%3Cpolygon points='910,80 934,80 922,35'/%3E%3Crect x='945' y='215' width='60' height='185'/%3E%3Crect x='1015' y='255' width='38' height='145'/%3E%3Crect x='1065' y='180' width='30' height='220'/%3E%3Crect x='1105' y='225' width='68' height='175'/%3E%3Crect x='1185' y='140' width='26' height='260'/%3E%3Crect x='1225' y='200' width='55' height='200'/%3E%3Crect x='1290' y='250' width='44' height='150'/%3E%3Crect x='1345' y='95' width='22' height='305'/%3E%3Cpolygon points='1345,95 1367,95 1356,55'/%3E%3Crect x='1380' y='230' width='58' height='170'/%3E%3Crect x='1450' y='265' width='40' height='135'/%3E%3Crect x='1500' y='190' width='32' height='210'/%3E%3Crect x='1545' y='240' width='55' height='160'/%3E%3C/g%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
-  opacity: 0.92;
-}
-.skyline-close {
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  height: 34vh;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 500' preserveAspectRatio='none'%3E%3Cg fill='%23000000' fill-opacity='0.86'%3E%3Crect x='0' y='340' width='140' height='160'/%3E%3Crect x='150' y='260' width='90' height='240'/%3E%3Crect x='260' y='300' width='110' height='200'/%3E%3Crect x='285' y='220' width='60' height='80'/%3E%3Crect x='390' y='380' width='100' height='120'/%3E%3Crect x='500' y='200' width='70' height='300'/%3E%3Crect x='590' y='320' width='120' height='180'/%3E%3Crect x='615' y='240' width='70' height='80'/%3E%3Crect x='730' y='360' width='90' height='140'/%3E%3Crect x='840' y='280' width='100' height='220'/%3E%3Crect x='960' y='300' width='130' height='200'/%3E%3Crect x='990' y='210' width='70' height='90'/%3E%3Crect x='1110' y='370' width='90' height='130'/%3E%3Crect x='1220' y='230' width='80' height='270'/%3E%3Crect x='1320' y='310' width='120' height='190'/%3E%3Crect x='1345' y='230' width='70' height='80'/%3E%3Crect x='1460' y='350' width='140' height='150'/%3E%3C/g%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-position: bottom center;
-  background-size: cover;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 65% 55% at 50% 28%, transparent 0%, rgba(10,10,11,0.55) 55%, rgba(10,10,11,0.97) 82%),
+    linear-gradient(180deg, rgba(10,10,11,0.15) 0%, rgba(10,10,11,0.8) 68%, #0a0a0b 100%);
 }
 /* Header */
 .site-header {
@@ -308,9 +295,6 @@ a { color: inherit; text-decoration: none; }
   transition: opacity 0.4s ease;
 }
 .hero-inner {
-  display: flex;
-  align-items: center;
-  gap: 64px;
   padding-top: 60px;
   padding-bottom: 60px;
   opacity: 0;
@@ -323,20 +307,7 @@ a { color: inherit; text-decoration: none; }
   to { opacity: 1; transform: none; }
 }
 .hero-text {
-  flex: 1 1 520px;
-  max-width: 600px;
-}
-.hero-visual {
-  flex: 1 1 380px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.hero-visual img {
-  width: 100%;
-  max-width: 420px;
-  height: auto;
-  filter: drop-shadow(0 30px 60px rgba(0,0,0,0.55));
+  max-width: 640px;
 }
 .eyebrow {
   color: var(--gold);
@@ -732,7 +703,5 @@ a { color: inherit; text-decoration: none; }
   .ghost-num { font-size: clamp(4.5rem, 22vw, 7rem); top: -0.2em; }
   .service-index { font-size: 4rem; right: 14px; }
   .brand-feature-mark { top: 16px; right: 20px; font-size: 1.8rem; }
-  .hero-inner { flex-direction: column; gap: 40px; text-align: left; }
-  .hero-visual { order: -1; }
-  .hero-visual img { max-width: 260px; }
+  .skyline-bg::before { background-size: 88vw auto; background-position: center 22%; }
 }
