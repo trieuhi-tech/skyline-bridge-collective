@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'Cormorant Garamond';
+  font-style: normal;
+  font-weight: 500 700;
+  font-display: swap;
+  src: url("../assets/fonts/cormorant-garamond-latin.woff2") format('woff2');
+}
+@font-face {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300 600;
+  font-display: swap;
+  src: url("../assets/fonts/inter-latin.woff2") format('woff2');
+}
+
 :root {
   --black: #0a0a0b;
   --near-black: #121214;

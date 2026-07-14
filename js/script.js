@@ -41,6 +41,12 @@
       "impressum.represented": "Represented by: Marco Jäger, Matthias Morneweg",
       "impressum.phone": "Phone: +971 52 326 3944",
       "impressum.placeholder": "Trade license / company registration number: to be added upon completion of company registration.",
+      "privacy.title": "Privacy Policy",
+      "privacy.intro": "This website does not use cookies, analytics or tracking scripts. No personal data is collected through the site itself.",
+      "privacy.fonts": "All fonts are hosted locally — no data is transmitted to third-party font providers.",
+      "privacy.mailto": "Email links open your own email application; no data is transmitted through this website when you use them.",
+      "privacy.hosting": "This site is hosted via GitHub Pages. As with any web server, technical access data (e.g. IP address, browser type, date and time of access) may be logged automatically by the hosting provider for security and operational purposes.",
+      "privacy.rights": "You have the right to request information about, correction of, or deletion of any personal data concerning you. For any privacy-related enquiries, please contact us using the details in our Legal Notice above.",
       "footer.rights": "All rights reserved."
     },
     de: {
@@ -84,6 +90,12 @@
       "impressum.represented": "Vertreten durch: Marco Jäger, Matthias Morneweg",
       "impressum.phone": "Telefon: +971 52 326 3944",
       "impressum.placeholder": "Handelsregister-/Gewerbelizenznummer: wird nach Abschluss der Unternehmensregistrierung ergänzt.",
+      "privacy.title": "Datenschutzerklärung",
+      "privacy.intro": "Diese Website verwendet keine Cookies, keine Analyse- oder Tracking-Skripte. Über die Website selbst werden keine personenbezogenen Daten erhoben.",
+      "privacy.fonts": "Alle Schriftarten werden lokal gehostet — es werden keine Daten an Dritt-Anbieter von Schriftarten übertragen.",
+      "privacy.mailto": "E-Mail-Links öffnen Ihr eigenes E-Mail-Programm; dabei werden keine Daten über diese Website übertragen.",
+      "privacy.hosting": "Diese Seite wird über GitHub Pages gehostet. Wie bei jedem Webserver können technische Zugriffsdaten (z. B. IP-Adresse, Browsertyp, Datum und Uhrzeit des Zugriffs) automatisch durch den Hosting-Anbieter zu Sicherheits- und Betriebszwecken protokolliert werden.",
+      "privacy.rights": "Sie haben das Recht auf Auskunft, Berichtigung oder Löschung Ihrer personenbezogenen Daten. Für Anfragen zum Datenschutz kontaktieren Sie uns bitte über die im Impressum genannten Kontaktdaten.",
       "footer.rights": "Alle Rechte vorbehalten."
     }
   };
